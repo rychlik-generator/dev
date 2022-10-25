@@ -9,8 +9,7 @@
     position: relative;
 }
 #firstshirt {
-    float: left;
-    position: absolute;
+    text-align: center;
 }
 #secondshirt {
     text-align: center;
@@ -21,6 +20,5 @@
     right: 100px;
 }
 #fourthshirt {
-    float: right;
-    position: absolute;
+    text-align: center;
 }
