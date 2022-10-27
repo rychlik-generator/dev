@@ -1,0 +1,11 @@
+#videoholder {
+    border: 3px solid darkgrey;
+    height: 500px;
+    width: 100%;
+}
+.aboutusleft {
+    float:left;
+}
+.aboutusright {
+    float:right;
+}
