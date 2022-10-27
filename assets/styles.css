@@ -16,3 +16,17 @@ body {
    font-family: Oswald, sans-serif; 
    margin:0;
 }
+
+header h1 {
+   float: left;
+}
+
+header nav {
+   float: right;
+}
+
+header nav a {
+   display: inline;
+   padding: 10px 20px;
+   margin: 0 20px;
+}
