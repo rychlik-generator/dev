@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+:root {
+   --primary: #BDECB6;
+   --secondary: #B44C43;
+}
+
 .LogoTR {
    position: relative;
    width: 115px;
@@ -24,11 +29,18 @@ header h1 {
 
 header nav {
    float: right;
-   margin-top: 20px;
+   margin-top: 40px;
 }
 
 header nav a {
    display: inline;
    padding: 10px 20px;
    margin: 0 20px;
+   color: black;
+   background-color: var(--primary);
+}
+
+header nav a:hover {
+   color: white;
+   background-color: var(--secondary);
 }
