@@ -8,19 +8,17 @@
 #trendshirts {
     position: relative;
     float:left;
-    padding:100p
+    padding:100px;
 }
 #firstshirt {
-    text-align: center;
+    float:left;
 }
-#secondshirt {
-    text-align: center;
+/* #secondshirt {
     left: 100px;
-}
+} */
 #thirdshirt {
-    text-align: center;
     right: 100px;
 }
-#fourthshirt {
-    text-align: center;
-}
+/* #fourthshirt {
+
+} */
