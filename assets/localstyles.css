@@ -6,9 +6,19 @@
 
 #trendshirts {
     position: relative;
-    float:left;
     padding:100px;
 }
+
+#trendshirts::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+ #trendshirts div {
+    float:left;
+}
+
 #firstshirt {
     float:left;
 }
