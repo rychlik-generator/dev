@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <title>DesignTide / Home</title>
 
-    <link rel="icon" type="image/x-icon" href="./images/DesignTideLogo1.png">
-    <link rel="stylesheet" href="assets/styles.css" media="screen">
-    <link rel="stylesheet" href="assets/localstyles.css" media="screen">
-    <link rel="stylesheet" href="assets/slideshow.css" media="screen">
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    
-    <body>
-    <div class="slideshow-container">
-      <div include-html="header.html"></div>
+<head>
+  <meta charset="utf-8" />
+  <title>DesignTide / Home</title>
+
+  <link rel="icon" type="image/x-icon" href="./images/DesignTideLogo1.png">
+  <link rel="stylesheet" href="assets/styles.css" media="screen">
+  <link rel="stylesheet" href="assets/localstyles.css" media="screen">
+  <link rel="stylesheet" href="assets/slideshow.css" media="screen">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="slideshow-container">
+    <div include-html="./components/header.html"></div>
 
     <div class="mySlides fade">
       <img src="./images/ShirtSample.jfif" style="width:100%" alt="SlideShow Image">
     </div>
- 
+
     <div class="mySlides fade">
       <img src="./images/ShirtSample.jfif" style="width:100%">
     </div>
@@ -36,31 +37,31 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-</div>
-<h1 id="Trendy">TRENDING STYLES</h1>
-<div id="trendshirts">
-  <div id="firstshirt">
-    <img src="#">
-    <h2 style="border:2px solid green;">$X.XX</h2>
   </div>
-  <div id="secondshirt">
-    <img src="#">
-    <h2 style="border:2px solid green;">$X.XX</h2>
+  <h1 id="Trendy">TRENDING STYLES</h1>
+  <div id="trendshirts">
+    <div id="firstshirt">
+      <img src="#">
+      <h2 style="border:2px solid green;">$X.XX</h2>
+    </div>
+    <div id="secondshirt">
+      <img src="#">
+      <h2 style="border:2px solid green;">$X.XX</h2>
+    </div>
+    <div id="thirdshirt">
+      <img src="#">
+      <h2 style="border:2px solid green;">$X.XX</h2>
+    </div>
+    <div id="fourthshirt">
+      <img src="#">
+      <h2 style="border:2px solid green;">$X.XX</h2>
+    </div>
   </div>
-  <div id="thirdshirt">
-    <img src="#">
-    <h2 style="border:2px solid green;">$X.XX</h2>
-  </div>
-  <div id="fourthshirt">
-    <img src="#">
-    <h2 style="border:2px solid green;">$X.XX</h2>
-  </div>
-</div>
   <h2>CHECK OUT OUR BLOG!</h2>
   <br>
   <h4>Keep up with the latest trends.</h4>
   <br>
-  
+
   <h3 style="border:2px solid green;">Blog Title Author</h3>
   <br>
   <h1>FOLLOW US ON INSTAGRAM!</h1>
@@ -69,17 +70,18 @@
     latest trends, and company updates and promotions on Instagram.
   </h2>
 
-<br>
-  
+  <br>
+
   <h2 style="border:2px solid red;">Follow Us Now!</h2>
   <br>
-  <h5 style="color:Tomato;"><b><u>Also check out our TikTok account!</u></b></h5>
+  <h5 style="color:Red;"><b><u>Also check out our TikTok account!</u></b></h5>
 
-  
 
-      <script src="assets/scripts.js"></script>
-      <script>
-        includeHTML();
-      </script>
-    </body>
+
+  <script src="assets/scripts.js"></script>
+  <script>
+    includeHTML();
+  </script>
+</body>
+
 </html>
