@@ -2,31 +2,39 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>DesignTide / Home</title>
-
   <link rel="icon" type="image/x-icon" href="./images/DesignTideLogo1.png">
   <link rel="stylesheet" href="assets/styles.css" media="screen">
   <link rel="stylesheet" href="assets/localstyles.css" media="screen">
   <link rel="stylesheet" href="assets/slideshow.css" media="screen">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <div class="slideshow-container">
-    <header include-html="./components/header.html"></header>
-
+<div class="header">
+	<h1 class="logo"><img width="150" id="LogoTR" src="./images/DesignTideFullLogo.png" alt="Logo">
+	</h1>
+	<nav class="Navbar">
+    	<a href="index.html">Home</a>
+    	<a href="about.html">About</a>
+    	<a href="product.html">Products</a>
+    	<a href="blog.html">Blog</a>
+    	<a href="contact.html">Contact</a>
+	</nav>
+</div>
+<div class="slideshow-container">
     <div class="mySlides fade">
       <img src="./images/ShirtSample.jfif" style="width:100%" alt="SlideShow Image">
     </div>
 
     <div class="mySlides fade">
-      <img src="./images/ShirtSample.jfif" style="width:100%">
+      <img src="./images/ShirtSample.jfif" style="width:100%" alt="Slideshow Image">
     </div>
 
     <div class="mySlides fade">
-      <img src="./images/ShirtSample.jfif" style="width:100%">
+      <img src="./images/ShirtSample.jfif" style="width:100%" alt="Slideshow Image">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -37,24 +45,28 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-  </div>
+</div> 
   <h1 id="Trendy">TRENDING STYLES</h1>
   <div id="trendshirts">
     <div id="firstshirt">
-      <img src="#">
-      <h2 style="border:2px solid green;">$X.XX</h2>
+      <img src="./images/ShirtSample.jfif" alt="Shirt1">
+	  <img class="hovershirt" src="./images/sampleshirt.jpg" alt="DetailShirt1">
+      <h2 class="pricetag">$X.XX<img src="./images/shoppingimage.jpg" alt="shopping vector"></h2>
     </div>
     <div id="secondshirt">
-      <img src="#">
-      <h2 style="border:2px solid green;">$X.XX</h2>
+      <img src="./images/ShirtSample.jfif" alt="Shirt2">
+	  <img class="hovershirt" src="./images/sampleshirt.jpg" alt="DetailShirt2">
+      <h2 class="pricetag">$X.XX</h2>
     </div>
     <div id="thirdshirt">
-      <img src="#">
-      <h2 style="border:2px solid green;">$X.XX</h2>
+      <img src="./images/ShirtSample.jfif" alt="Shirt3">
+	  <img class="hovershirt" src="./images/sampleshirt.jpg" alt="DetailShirt3">
+      <h2 class="pricetag">$X.XX</h2>
     </div>
     <div id="fourthshirt">
-      <img src="#">
-      <h2 style="border:2px solid green;">$X.XX</h2>
+      <img src="./images/ShirtSample.jfif" alt="Shirt4">
+	  <img class="hovershirt" src="./images/sampleshirt.jpg" alt="DetailShirt4">
+      <h2 class="pricetag">$X.XX</h2>
     </div>
   </div>
   <h2>CHECK OUT OUR BLOG!</h2>
@@ -78,8 +90,11 @@
 
 
 
-  <script src="assets/scripts.js"></script>
-  <script>
+<script src="assets/scripts.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+<script>
     includeHTML();
   </script>
 </body>
