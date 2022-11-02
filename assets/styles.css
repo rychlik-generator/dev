@@ -5,40 +5,31 @@
    --secondary: #B44C43;
 }
 
-.LogoTR {
-   position: relative;
-   width: 115px;
-   height: 115px;
-   bottom: 500px;
-   left: 100px;
-   margin: 10px;
-   background-color: darkgray;
-   padding: 20px;
-   border-radius: 50%;
-}
-
 body {
    font-family: Oswald, sans-serif; 
    margin:0;
 }
 
-header::after {
+.header {
+	position: relative;
+}
+.header:after {
    content: "";
    clear: both;
    display: table;
 }
 
-header h1 {
+.logo {
    float: left;
    margin-left: 40px;
 }
 
-header nav {
+.Navbar {
    float: right;
    margin-top: 40px;
 }
 
-header nav a {
+.Navbar a {
    display: inline;
    padding: 5px 10px;
    margin: 0 20px;
@@ -47,7 +38,8 @@ header nav a {
    background-color: var(--primary);
 }
 
-header nav a:hover {
+.Navbar a:hover {
    color: white;
    background-color: var(--secondary);
 }
+
