@@ -1,33 +1,63 @@
 #Trendy {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
   }
 
-#trendshirts {
+/*#trendshirts {
     position: relative;
     padding:100px;
-}
+} */
 
-#trendshirts::after {
+#trendshirts:after {
     content: "";
     clear: both;
     display: table;
  }
 
- #trendshirts div {
-    float:left;
+.pricetag {
+	background-color: #BDECB6;
+	text-indent: 5%;
+	font-size: 35px;
+	position: relative;
 }
 
-#firstshirt {
-    float:left;
+.pricetag img {
+	max-height: 35px;
+	max-width: 35px;
+	position: absolute;
 }
-/* #secondshirt {
-    left: 100px;
-} */
-#thirdshirt {
-    right: 100px;
-}
-/* #fourthshirt {
 
-} */
+#trendshirts {
+	display:flex;
+	position:relative;
+}
+#trendshirts div {
+	margin-left:25px;
+	margin-right:25px;
+	float:left;
+}
+
+#trendshirts img {
+	width: 250px;
+	height: 300px;
+}
+
+/* Just Placeholder */
+.hovershirt {
+	position: absolute;
+	opacity: 0;
+}
+/* Work in Progress */
+/*
+.hovershirt {
+	position: absolute;
+	max-height: 80%;
+	max-width: 30%;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.hovershirt:hover {
+	opacity: 1;
+}
+*/
