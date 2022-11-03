@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
 :root {
    --primary: #BDECB6;
    --secondary: #B44C43;
+   --secondaryHover: #B44C43BB;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 body {
-   font-family: Oswald, sans-serif; 
    margin:0;
+	font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3 {
+   font-family: Oswald, sans-serif; 
 }
 
 .header {
@@ -36,10 +46,10 @@ body {
    color: black;
    text-decoration: none;
    background-color: var(--primary);
+   font-family: Oswald, sans-serif; 
 }
 
 .Navbar a:hover {
    color: white;
    background-color: var(--secondary);
 }
-
