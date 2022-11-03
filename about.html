@@ -10,22 +10,51 @@
 </head>
 
 <body>
-    <div include-html="./components/header.html"></div>
     <div class="video">
+		<div class="header">
+			<h1 class="logo"><img width="50" id="LogoTR" src="./images/DesignTideLogo1.png" alt="Logo"> DesignTide</h1>
+			<nav class="Navbar">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="product.html">Products</a>
+				<a href="blog.html">Blog</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
         <h1 id="videoholder">VIDEO PLACEHOLDER</h1>
-        <p> Keep watching for a reward!</p>
+        <p style="text-align:center;">Keep reading for a reward!</p>
     </div>
+	<br />
     <div class="aboutus">
-        <h1 class="aboutusleft">The Best T-Shirt Design</h1>
-        <p class="aboutusleft">Brief Description</p>
-        <img class="aboutusright" src="#" alt="placeholder for image">
-        <h1 class="aboutusright">Meet the Founders</h1>
-        <p class="aboutusright">Brief Description</p>
-        <img class="aboutusleft" src="#" alt="placeholder for image">
-        <h1 class="aboutusleft">First information section</h1>
-        <p class="aboutusleft">Brief Description</p>
-        <img class="aboutusright" src="#" alt="placeholder for image">
+		<div class="floatbox">
+			<div class="floatcell">
+				<h2>The Best T-Shirt Design</h2>
+				<p>Brief Description</p>
+			</div>
+			<div class="floatcell"><img src="#" alt="placeholder for image"></div>
+		</div>
+		<div class="floatbox">
+			<div class="floatcell"><img class="left" src="#" alt="placeholder for image"></div>
+			<div class="floatcell">
+				<h2>Meet the Founders</h2>
+				<p>Brief Description</p>
+			</div>
+		</div>
+		<div class="floatbox">
+			<div class="floatcell">
+				<h2>First information section</h2>
+				<p>Brief Description</p>
+			</div>
+			<div class="floatcell"><img class="right" src="#" alt="placeholder for image"></div>
+		</div>
     </div>
+	<br />
+	<div id="promotion">
+		<h2 class="big">Ready to get our cool t-shirts?</h2>
+		<button class="main">Check out our store</button>
+		<p class="info"><span class="promo">Promo code: 5z$48</span><br/>Thank you for reading our about page!<br/>You get a <span class="discount">10%</span> discount.</p>
+	</div>
+	
     <script src="assets/scripts.js"></script>
     <script>
       includeHTML();
